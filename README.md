@@ -1,22 +1,22 @@
-Book Store Web Application
+# Book Store Web Application
 
 Project Overview
 This is a full-stack Book Store Web Application developed using React.js for the frontend and Node.js with SQL for the backend. The app allows users to browse, search for books, and manage book inventory in a seamless, user-friendly interface. It utilizes RESTful API endpoints to manage the flow of data between the client and server efficiently.
 
-Features
+## Features
 User-Friendly Interface: Responsive design built with React.js for browsing and searching books.
 Book Inventory Management: Supports adding, updating, and deleting book entries in the inventory.
 Search Functionality: Users can search for books by title or author.
 RESTful API: The application follows REST principles, enabling smooth data communication between the frontend and backend.
 SQL Database: Manages book inventory and user data using SQL for fast and reliable data management.
 
-Tech Stack
+## Tech Stack
 Frontend: React.js (with Hooks, Axios for API requests)
 Backend: Node.js, Express.js (for building the API)
 Database: SQL (for managing book and user data)
 Other Tools: Postman (for API testing), Git (for version control)
 
-Installation and Setup
+## Installation and Setup
 To run the project locally, follow these steps:
 
 Clone the repository:
@@ -61,7 +61,8 @@ Start the React development server:
 bash
 Copy code
 npm start
-Access the Application:
+
+## Access the Application:
 
 Visit http://localhost:3000 in your browser to access the application frontend.
 API Endpoints
@@ -80,7 +81,7 @@ curl http://localhost:5000/books
 Screenshots
 (Include screenshots of your application for better visualization)
 
-Future Enhancements
+## Future Enhancements
 User authentication (Login/Register).
 Implement book categories.
 Add book ratings and reviews.
